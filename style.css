@@ -1,0 +1,72 @@
+body{ 
+    margin: 0;
+}
+.container{
+    margin: 20px auto;
+    width: 390px;
+    min-height: 844px;
+    background: #1B1924;
+}
+.main{
+    display: flex;
+    height: 418px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.main img{
+    width: 90px;
+    height: 90px;
+}
+.main h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    size: 25px;
+    line-height: 25px;
+    margin: 17px auto 19px;
+}
+.main textarea{
+    width: 282px;
+    height: 93px;
+    border-radius: 8px;
+    background: #444059;
+    color: #8F8F8F;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    padding: 12px 16px 13px 19px;
+}
+.main button{
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    background: #28A9F1;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #04131C;
+    margin: 13px auto 24px;
+}
+.endorsements{
+    display: flex;
+    min-height: 426px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+.endorsements h2{
+    margin: 0;
+}
+.box{
+    width: 286px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.52px;
+    color: #1B1924;
+    padding: 13px 15px 11px 16px;
+    background: #FFFFFF;
+}
